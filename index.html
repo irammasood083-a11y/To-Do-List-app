@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do list</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box1">
+        <h1>To-Do List</h1>
+        <p>Plan your day.Get things done.</p>
+      </div>
+
+      <div class="add-task">
+        <input type="text" placeholder="Enter a task..." id="taskInput" />
+        <button id="add-task">+Add Task</button>
+      </div>
+
+      <div class="box2">
+        <div class="top-buttons">
+          <button >All</button>
+          <button >Active</button>
+          <button >Complete</button>
+        </div>
+
+        <hr />
+
+          <div class="task-list">
+            <div class="task">
+              <input type="checkbox" />
+              <span>DSA</span>
+              <button>Edit</button>
+              <button>Delete</button>
+            </div>
+        </div>
+      </div>
+
+      <div class="task-completed">
+        <p id="taskCount">2 of 5 tasks completed</p>
+        <button type="reset">Clear Completed</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
