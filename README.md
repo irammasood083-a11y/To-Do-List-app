@@ -6,7 +6,7 @@ A simple and user-friendly Todo List application to manage daily tasks and stay 
 - View all tasks.
 - Organize daily activities.
 - Simple and clean user interface.
-- 
+  
 ## Technologies Used
 - HTML
 - CSS
