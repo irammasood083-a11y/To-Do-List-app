@@ -1,4 +1,4 @@
-# Todo List App
+# To-do List App
 A simple and user-friendly Todo List application to manage daily tasks and stay organized.
 
 ## Features
